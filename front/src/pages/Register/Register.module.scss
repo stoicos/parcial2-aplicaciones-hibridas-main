@@ -1,0 +1,37 @@
+.Container {
+    margin: 2rem;
+}
+
+.Container > p {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(4, 27, 92);
+}
+
+button {
+    
+    cursor: pointer;
+    margin: 1rem 0;
+
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+button:hover {
+
+    background-color: rgb(205, 218, 255);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+}
+
+form input {
+    padding: .5rem;
+    margin: .5rem 0;
+}

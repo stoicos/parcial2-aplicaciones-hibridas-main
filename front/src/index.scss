@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background: #C8D8FF;
+    background: -moz-radial-gradient(center, #C8D8FF 0%, #EBF2FF 60%, #FFFFFF 100%);
+    background: -webkit-radial-gradient(center, #C8D8FF 0%, #EBF2FF 60%, #FFFFFF 100%);
+    background: radial-gradient(ellipse at center, #C8D8FF 0%, #EBF2FF 60%, #FFFFFF 100%);
+}
+
+button {
+    margin-right: 1rem;
+}

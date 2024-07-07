@@ -1,0 +1,33 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  color: rgb(4, 27, 92);
+}
+
+.Container > p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Navbar {
+  display: flex;
+
+  list-style: none;
+  text-align: center;
+}
+.Navbar a {
+  width: 10rem;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: rgb(4, 27, 92);
+}
+.Navbar a:hover {
+  color: rgb(26, 60, 153);
+  font-weight: bold;
+}
+
+button {
+  margin-right: 1rem;
+}

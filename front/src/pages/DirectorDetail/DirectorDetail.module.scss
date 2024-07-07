@@ -1,0 +1,26 @@
+.Container {
+    margin: 2rem;
+}
+
+
+.Lista {
+    margin: 1rem;
+    list-style:none;
+}
+.Lista li {
+    margin-bottom: 1rem;
+}
+.Lista a {
+    text-decoration: none;
+    color: rgb(4, 27, 92);
+    font-size: 2rem;
+}
+.Lista a:hover {
+    color: rgb(26, 60, 153);
+    font-weight: bold;
+}
+
+
+button {
+    margin-right: 1rem;
+}
